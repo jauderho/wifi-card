@@ -3280,10 +3280,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.6:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
-  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
+classnames@^2.3.0:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
 
 clean-css@^4.2.3:
   version "4.2.4"
@@ -4793,17 +4793,17 @@ eventsource@^1.1.0:
   dependencies:
     original "^1.0.0"
 
-evergreen-ui@^6.3.0:
-  version "6.9.6"
-  resolved "https://registry.yarnpkg.com/evergreen-ui/-/evergreen-ui-6.9.6.tgz#db8f1a90dbe97276f7ba2a9166980b9d855cec5f"
-  integrity sha512-MUBPh2v2KDsABKv0I2LsTcvAVbpyFHyU251fSaXwvakjFMLqspl8Yy53RvbbLKt30uQr2yukeJzhROoqPfoD/w==
+evergreen-ui@^6.10.4:
+  version "6.10.4"
+  resolved "https://registry.yarnpkg.com/evergreen-ui/-/evergreen-ui-6.10.4.tgz#2e03d373b575c9814b4e87955aee056be1b4d6f8"
+  integrity sha512-39/80oCAe3KFxr4q+fub3MqL5H3cv9YYMcP9iimEZZ9Y+6Cii05NQsCH07hXtlSMXkFZ/yQKmzZByLiHgIv+MA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     "@segment/react-tiny-virtual-list" "^2.2.1"
     "@types/react" "^16.9.5"
     "@types/react-transition-group" "^4.4.0"
     arrify "^1.0.1"
-    classnames "^2.2.6"
+    classnames "^2.3.0"
     downshift "^5.2.0"
     fuzzaldrin-plus "^0.6.0"
     glamor "^2.20.40"
@@ -4812,12 +4812,13 @@ evergreen-ui@^6.3.0:
     lodash.differencewith "^4.5.0"
     lodash.isempty "^4.4.0"
     lodash.merge "^4.6.2"
+    lodash.omit "^4.5.0"
     lodash.uniqby "^4.7.0"
     prop-types "^15.6.2"
     react-fast-compare "^3.2.0"
     react-transition-group "^4.4.1"
     tinycolor2 "^1.4.1"
-    ui-box "^5.0.0"
+    ui-box "^5.1.0"
 
 evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
   version "1.0.3"
@@ -7167,6 +7168,11 @@ lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+
+lodash.omit@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
+  integrity sha512-XeqSp49hNGmlkj2EJlfrQFIzQ6lXdNro9sddtQzcJY8QaoC2GO0DT7xaIokHeyM+mIT0mPMlPvkYzg2xCuHdZg==
 
 lodash.template@^4.5.0:
   version "4.5.0"
@@ -10943,10 +10949,10 @@ ua-parser-js@^0.7.30:
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
   integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
 
-ui-box@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ui-box/-/ui-box-5.0.0.tgz#8b73e81cc7a50cf53749b969d411e8f56a93af48"
-  integrity sha512-DJZZKe8UoB1e6hNenNniO3ror9ER57EG5k+fOUm17vrLnU2T4vhoTnWGoStewXJzQ4Ur9ox9Xk4kljVKFpXlzQ==
+ui-box@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/ui-box/-/ui-box-5.1.0.tgz#3b62d4089f0b4c3e7c5db60cff32adba0e268605"
+  integrity sha512-3FYTKhYKu8JaZmg1+iYzrHUpZDtrAiIdhLBbaVV/u5TL6Zfg1U7OkI00eFJNASa/D+b0SwJjt5Ph6tzmcub1RQ==
   dependencies:
     "@emotion/hash" "^0.7.1"
     inline-style-prefixer "^5.0.4"
