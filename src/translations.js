@@ -9,6 +9,8 @@ export const Translations = [
       'desc.privacy':
         'Your WiFi information is never sent to the server. No tracking, analytics, or fingerprinting are used on this website. View the',
       'desc.source': 'source code',
+      'wifi.identity': 'Identity',
+      'wifi.identity.placeholder': 'Username',
       'wifi.login': 'WiFi Login',
       'wifi.name': 'Network name',
       'wifi.name.hiddenSSID': 'Hidden SSID',
@@ -18,13 +20,16 @@ export const Translations = [
       'wifi.password.hide': 'Hide password',
       'wifi.password.encryption': 'Encryption',
       'wifi.password.encryption.none': 'None',
+      'wifi.encryption.eapMethod': 'EAP method',
       'wifi.tip':
         "Point your phone's camera at the QR Code to connect automatically",
       'wifi.alert.name': 'Network name cannot be empty',
+      'wifi.alert.password': 'Password cannot be empty',
       'wifi.alert.password.length.5':
         'Password must be at least 5 characters, or change the encryption to "None"',
       'wifi.alert.password.length.8':
         'Password must be at least 8 characters, or change the encryption to "None"',
+      'wifi.alert.eapIdentity': 'Identity cannot be empty',
       'button.rotate': 'Rotate',
       'button.print': 'Print',
       select: 'Select Language',
@@ -436,6 +441,8 @@ export const Translations = [
       'desc.privacy':
         'Deine Zugangsdaten werden niemals zum Server gesendet. Es gibt kein Tracking, Analytics, oder Fingerprinting auf dieser Website. Hier geht es zum',
       'desc.source': 'Quellcode',
+      'wifi.identity': 'Identität',
+      'wifi.identity.placeholder': 'Nutzername',
       'wifi.login': 'WLAN-Zugangsdaten',
       'wifi.name': 'WLAN-Netzwerkname (SSID)',
       'wifi.name.placeholder': 'WLAN-Netzwerkname (SSID)',
@@ -445,16 +452,55 @@ export const Translations = [
       'wifi.name.hiddenSSID': 'Versteckte SSID',
       'wifi.password.encryption': 'Verschlüsselung',
       'wifi.password.encryption.none': 'Keine',
+      'wifi.encryption.eapMethod': 'EAP Methode',
       'wifi.tip':
         'Zeige mit der Kamera deines Handys auf den QR-Code, um automatisch eine Verbindung herzustellen',
       'wifi.alert.name': 'Der Netzwerkname darf nicht leer sein',
+      'wifi.alert.password': 'Das Passwort darf nicht leer sein',
       'wifi.alert.password.length.5':
         'Das Passwort muss mindestends 5 Zeichen lang sein, oder stelle die Verschlüsselung auf "Keine"',
       'wifi.alert.password.8':
         'Das Passwort muss mindestends 8 Zeichen lang sein, oder stelle die Verschlüsselung auf "Keine"',
+      'wifi.alert.eapIdentity': 'Die Identität darf nicht leer sein',
       'button.rotate': 'Drehen',
       'button.print': 'Drucken',
       select: 'Sprache auswählen',
+    },
+  },
+  {
+    id: 'el-GR',
+    name: 'Greek - Hellenic',
+    translation: {
+      title: 'WiFi Card',
+      'desc.use':
+        'Εκτυπώστε μια απλή κάρτα με τις πληροφορίες πρόσβασης στο WiFi δίκτυό σας. Κολλήστε την στο ψυγείο ή βάλτε τη στο πορτοφόλι σας, κτλ.',
+      'desc.privacy':
+        'Οι πληροφορίες που σχετίζονται με το δίκτυο WiFi δεν αποστέλλονται στον διακομιστή. Καμιά ιχνηλάτηση, στατιστική ανάλυση ή ταυτοποίηση δεν πραγματοποιείται από αυτή την ιστοσελίδα. Δείτε τον',
+      'desc.source': 'πηγαίο κώδικα',
+      'wifi.identity': 'Ταυτότητα',
+      'wifi.identity.placeholder': 'όνομα χρήστη',
+      'wifi.login': 'Πληροφορίες WiFi',
+      'wifi.name': 'Όνομα δικτύου',
+      'wifi.name.hiddenSSID': 'Κρυφό SSID',
+      'wifi.name.placeholder': 'όνομα δικτύου',
+      'wifi.password': 'Κωδικός πρόσβασης',
+      'wifi.password.placeholder': 'κωδικός πρόσβασης',
+      'wifi.password.hide': 'Απόκρυψη κωδικού πρόσβασης',
+      'wifi.password.encryption': 'Κρυπτογράφηση',
+      'wifi.password.encryption.none': 'Καμία',
+      'wifi.encryption.eapMethod': 'Μέθοδος EAP',
+      'wifi.tip':
+        'Στρέψτε την κάμερα του κινητού σας προς τον κώδικα QR για να συνδεθείτε αυτόματα',
+      'wifi.alert.name': 'Το όνομα δικτύου δεν μπορεί να είναι κενό',
+      'wifi.alert.password': 'Ο κωδικός πρόσβασης δεν μπορεί να είναι κενός',
+      'wifi.alert.password.length.5':
+        'Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον 5 χαρακτήρες, διαφορετικά αλλάξτε την κρυπτογράφηση σε "Καμία"',
+      'wifi.alert.password.length.8':
+        'Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον 8 χαρακτήρες, διαφορετικά αλλάξτε την κρυπτογράφηση σε "Καμία"',
+      'wifi.alert.eapIdentity': 'Η ταυτότητα δεν μπορεί να είναι κενή.',
+      'button.rotate': 'Περιστροφή',
+      'button.print': 'Εκτύπωση',
+      select: 'Επιλέξτε γλώσσα',
     },
   },
   {
@@ -985,6 +1031,36 @@ export const Translations = [
       'button.rotate': 'ਘੁੰਮਾਓ',
       'button.print': 'ਛਾਪੋ',
       select: 'ਭਾਸ਼ਾ ਚੁਣੋ',
+    },
+  },
+  {
+    id: 'dk-DA',
+    name: 'Danish - Dansk',
+    translation: {
+      title: 'WiFi Kort',
+      'desc.use':
+        'Udskriv et enkelt kort med dine Wifi login oplysninger. Sæt det på køleskapet, læg det i din pung eller lignende.',
+      'desc.privacy':
+        'Dine Wifi informationer bliver aldrig sendt til vores servere. Ingen sporing, analyse eller identifikation anvendes på dette website. Se vores',
+      'desc.source': 'kildekode',
+      'wifi.login': 'WiFi login',
+      'wifi.name': 'Netværksnavn',
+      'wifi.name.hiddenSSID': 'Skjult SSID',
+      'wifi.name.placeholder': 'WiFi Netværksnavn',
+      'wifi.password': 'Kodeord',
+      'wifi.password.placeholder': 'Kodeord',
+      'wifi.password.hide': 'Skjul kodeord',
+      'wifi.password.encryption': 'Kryptering',
+      'wifi.password.encryption.none': 'Ingen',
+      'wifi.tip': 'Ret telefonens kamera mod QR koden for tilslutte automatisk',
+      'wifi.alert.name': 'Netværksnavnet må ikke være tomt',
+      'wifi.alert.password.length.5':
+        'Kodeordet skal være på mindst 5 tegn, eller skift kryptering til "Ingen"',
+      'wifi.alert.password.length.8':
+        'Kodeordet skal være på mindst 8 tegn, eller skift kryptering til "Ingen"',
+      'button.rotate': 'Roter',
+      'button.print': 'Print ud',
+      select: 'Vælg sprog',
     },
   },
 ].sort((a, b) => {

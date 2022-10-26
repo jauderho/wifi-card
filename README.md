@@ -6,7 +6,13 @@ https://wificard.io
 
 Print a simple card with your WiFi login details. Tape it to the fridge, keep it in your wallet, hang on the wall for guests at home or in the hotel, etc.
 
-![wificard](https://user-images.githubusercontent.com/48166553/129261875-169841ab-e997-4596-af7f-ada0f68cd230.gif)
+<a href="https://wificard.io/">
+   <img alt="wificard" src="https://user-images.githubusercontent.com/48166553/129261875-169841ab-e997-4596-af7f-ada0f68cd230.gif">
+</a>
+
+<a href="https://thiswebsitedoesnottrackyou.com/">
+   <img width="402" alt="This website does not track you" src="https://user-images.githubusercontent.com/4248167/184430158-849d4b2c-de43-483f-86fe-0743b23bc40c.png">
+</a>
 
 ## Running locally
 
@@ -47,34 +53,36 @@ We would love for you to contribute to different languages and help make it even
 
 ## Supported Languages
 
-| Language            | Author Credit                                     |
-| ------------------- | ------------------------------------------------- |
-| English             | [bndw](https://github.com/bndw)                   |
-| Chinese             | [Baoyuantop](https://github.com/Baoyuantop)       |
-| Spanish             | [oscfdezdz](https://github.com/oscfdezdz)         |
-| Portuguese          | [pedrorenan](https://github.com/pedrorenan)       |
-| Portuguese (Brazil) | [ismaelpereira](https://github.com/ismaelpereira) |
-| Japanese            | [hatsu38](https://github.com/hatsu38)             |
-| Russian             | [Teraskull](https://github.com/Teraskull)         |
-| Ukrainian           | [Teraskull](https://github.com/Teraskull)         |
-| Dutch               | [wouterbrink](https://github.com/wouterbrink)     |
-| French              | [Divlo](https://github.com/Divlo)                 |
-| Turkish             | [Riza Ergun](https://github.com/rizaergun)        |
-| Hindi               | [Pushpender](https://github.com/PushpenderSaini0) |
-| Catalan             | [aniol](https://github.com/aniol)                 |
-| German              | [devofthings](https://github.com/devofthings)     |
-| Indonesia           | [nyancodeid](https://github.com/nyancodeid)       |
-| Polish              | [olekstomek](https://github.com/olekstomek)       |
-| Arabic              | [Ahmed Tokyo](https://github.com/a-tokyo)         |
-| Occitan             | [ensag-dev](https://github.com/ensag-dev)         |
-| Italian             | [Domenico Pascucci](https://github.com/pasmimmo)  |
-| Korean              | [Seungbin Oh](https://github.com/sboh1214)        |
-| Norwegian           | [tplive](https://github.com/tplive)               |
-| Hungarian           | [munkacsimark](https://github.com/munkacsimark)   |
-| Serbian             | [demanderbag](https://github.com/demanderbag)     |
-| Urdu                | [mHassan11](https://github.com/mHassan11)         |
-| Swedish             | [ddund](https://github.com/ddund)                 |
-| Thai                | [l2D](https://github.com/l2D)                     |
-| Traditional Chinese (Taiwan) | [Dxball](https://github.com/dxball)      |
-|Simplified Cantonese |[ous50](https://github.com/ous50)                  |
-|Punjabi              |[phoenixgill34](https://github.com/phoenixgill34/) |
+| Language                     | Author Credit                                      |
+| ---------------------------- | -------------------------------------------------- |
+| English                      | [bndw](https://github.com/bndw)                    |
+| Chinese                      | [Baoyuantop](https://github.com/Baoyuantop)        |
+| Spanish                      | [oscfdezdz](https://github.com/oscfdezdz)          |
+| Portuguese                   | [pedrorenan](https://github.com/pedrorenan)        |
+| Portuguese (Brazil)          | [ismaelpereira](https://github.com/ismaelpereira)  |
+| Japanese                     | [hatsu38](https://github.com/hatsu38)              |
+| Russian                      | [Teraskull](https://github.com/Teraskull)          |
+| Ukrainian                    | [Teraskull](https://github.com/Teraskull)          |
+| Dutch                        | [wouterbrink](https://github.com/wouterbrink)      |
+| French                       | [Divlo](https://github.com/Divlo)                  |
+| Turkish                      | [Riza Ergun](https://github.com/rizaergun)         |
+| Hindi                        | [Pushpender](https://github.com/PushpenderSaini0)  |
+| Catalan                      | [aniol](https://github.com/aniol)                  |
+| German                       | [devofthings](https://github.com/devofthings)      |
+| Greek                        | [nautilus7](https://github.com/nautilus7)          |
+| Indonesia                    | [nyancodeid](https://github.com/nyancodeid)        |
+| Polish                       | [olekstomek](https://github.com/olekstomek)        |
+| Arabic                       | [Ahmed Tokyo](https://github.com/a-tokyo)          |
+| Occitan                      | [ensag-dev](https://github.com/ensag-dev)          |
+| Italian                      | [Domenico Pascucci](https://github.com/pasmimmo)   |
+| Korean                       | [Seungbin Oh](https://github.com/sboh1214)         |
+| Norwegian                    | [tplive](https://github.com/tplive)                |
+| Hungarian                    | [munkacsimark](https://github.com/munkacsimark)    |
+| Serbian                      | [demanderbag](https://github.com/demanderbag)      |
+| Urdu                         | [mHassan11](https://github.com/mHassan11)          |
+| Swedish                      | [ddund](https://github.com/ddund)                  |
+| Thai                         | [l2D](https://github.com/l2D)                      |
+| Traditional Chinese (Taiwan) | [Dxball](https://github.com/dxball)                |
+| Simplified Cantonese         | [ous50](https://github.com/ous50)                  |
+| Punjabi                      | [phoenixgill34](https://github.com/phoenixgill34/) |
+| Danish                       | [dk90103](https://github.com/dk90103/)             |
