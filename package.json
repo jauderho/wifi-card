@@ -7,7 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "evergreen-ui": "^6.13.1",
-    "i18next": "^22.0.6",
+    "i18next": "^22.4.7",
     "i18next-browser-languagedetector": "^7.0.1",
     "qrcode.react": "^3.0.1",
     "react": "^18.2.0",
